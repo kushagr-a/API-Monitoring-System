@@ -67,4 +67,4 @@ export class PostgresConnection {
     }
 }
 
-export const db = new PostgresConnection();
+export default new PostgresConnection();
